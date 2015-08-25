@@ -1,0 +1,35 @@
+body {
+	background: url(http://sweetclipart.com/multisite/sweetclipart/files/carnival_amusement_park_setting.png);
+	background-size: cover;
+}
+
+h1 {
+	color: #00f;
+	text-align: center;
+}
+
+p {
+	color: #05f;
+	text-align: center;
+	margin: -10px 200px;
+}
+
+div {
+	text-align: center;
+}
+
+#guessing {
+	padding: 10px;
+	margin: 50px auto 25px;
+	width: 200px;
+	display: block;
+	font-size: 1.5em;
+}
+
+.button {
+	background-color: #bfefff;
+	color: #000;
+	font-size: 1.25em;
+	border-radius: 30%;
+	text-align: center;
+}
