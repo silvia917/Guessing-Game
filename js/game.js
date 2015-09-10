@@ -6,7 +6,7 @@ $(document).ready(function() {
 	var numGuesses = 0;
 	var difference = 0;
 
-	$('body').append('<img src= "./images/fluffy.jpg">');
+	$('#message').before('<div><img src= "./images/fluffy.jpg"></div>');
 
 	//function to check if input is a number and within range
 	function goodNum(num) {

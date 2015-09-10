@@ -4,6 +4,7 @@ html {
     height: 100%;
     width: 100%;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -56,11 +57,13 @@ td {
 	font-size: 1.4em;
 	display: inline-block;
 	background-color: #B4EAF6;
+	margin: 5px;
 }
 
 img {
+	margin: 5px;
 	display: none;
-	height: 300px;
-	width: 300px;
-}
+	height: 210px;
+	width: 230px;
 
+}
