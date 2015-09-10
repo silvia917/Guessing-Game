@@ -1,6 +1,9 @@
-body {
-	background: url(http://sweetclipart.com/multisite/sweetclipart/files/carnival_amusement_park_setting.png);
-	background-size: cover;
+html {
+	background: url(./images/carnival_amusement_park_setting.png);
+	background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
 
 h1 {
@@ -11,16 +14,29 @@ h1 {
 p {
 	color: #05f;
 	text-align: center;
-	margin: -10px 200px;
+	padding-top: -20px;
 }
 
-div {
-	text-align: center;
+table {
+	margin: auto;
+	position: relative;
+}
+
+td {
+	border: 1px #000 solid;
+	background-color: #B4EAF6;
+	color: #00f;
+	height: 80px;
+	width: 90px;
+	padding: 10px;
+	border-radius: 25px;
+	white-space: pre-line;
+	font-size: 0.9em;
 }
 
 #guessing {
-	padding: 10px;
-	margin: 50px auto 25px;
+	padding: 5px;
+	margin: 25px auto 25px;
 	width: 200px;
 	display: block;
 	font-size: 1.5em;
@@ -33,3 +49,18 @@ div {
 	border-radius: 30%;
 	text-align: center;
 }
+
+#message {
+	font-weight: bold;
+	color: red;
+	font-size: 1.4em;
+	display: inline-block;
+	background-color: #B4EAF6;
+}
+
+img {
+	display: none;
+	height: 300px;
+	width: 300px;
+}
+

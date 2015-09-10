@@ -10,11 +10,24 @@
 			<header><h1>Let's Play A Game!</h1></header>
 			<h3><p>You're at the carnival! I'm thinking of a number between 1 and 100. Guess my number to win a prize!</p></h3>
 			<div>
-			<form id="guess_form">
 				<input id="guessing" placeholder="Guess A Number">
-				<input class="button" type="submit">
-				<input class="button" type="reset">
-			</form>
-		</div>
+				<input class="button submit" type="submit">
+				<button class="button">Hint</button>
+				<input class="button" id = "reset" type="reset">
+			</div>
+			<div>
+				<p id="message"></p>
+			</div>
+			<table>
+				<tr>
+					<td id = "guess1"></td>
+					<td id = "guess2"></td>
+					<td id = "guess3"></td>
+					<td id = "guess4"></td>
+					<td id = "guess5"></td>
+				</tr>
+			</table>
+		<script type="text/javascript" src="./js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="./js/game.js"></script>
 		</body>
 	</html>
